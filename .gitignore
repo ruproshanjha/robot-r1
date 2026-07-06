@@ -1,0 +1,18 @@
+(
+echo # KiCad
+echo *.kicad_prl
+echo *.kicad_pro-bak
+echo *.bak
+echo.
+echo # Python
+echo __pycache__/
+echo *.pyc
+echo .venv/
+echo.
+echo # VS Code
+echo .vscode/
+echo.
+echo # OS Files
+echo Thumbs.db
+echo .DS_Store
+)> .gitignore
